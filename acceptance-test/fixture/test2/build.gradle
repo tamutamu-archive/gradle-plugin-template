@@ -1,0 +1,8 @@
+plugins {
+    id 'com.example.hello'
+}
+
+hello {
+	paramString "hello-test"
+	paramClosure { param1, param2 -> println "${param1} : ${param2}" }
+}

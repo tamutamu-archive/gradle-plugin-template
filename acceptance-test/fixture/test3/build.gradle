@@ -1,0 +1,8 @@
+plugins {
+    id 'com.example.hello'
+}
+
+hello {
+	closureList { param -> println "${param}: 1" }
+	closureList { param -> println "${param}: 2" }
+}
